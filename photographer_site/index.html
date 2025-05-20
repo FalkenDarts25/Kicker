@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotograf Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mein Fotografen Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Über mich</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Willkommen!</h2>
+        <p>Ich halte besondere Momente in einzigartigen Bildern fest.</p>
+    </section>
+
+    <section id="about">
+        <h2>Über mich</h2>
+        <p>Hier kannst du ein paar Worte über den Fotografen schreiben. Erzähle von deiner Leidenschaft und deinen Erfahrungen.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300x200" alt="Beispielbild 1">
+            <img src="https://via.placeholder.com/300x200" alt="Beispielbild 2">
+            <img src="https://via.placeholder.com/300x200" alt="Beispielbild 3">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Senden</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fotograf Muster. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
